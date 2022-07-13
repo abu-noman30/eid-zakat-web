@@ -60,23 +60,24 @@ nav > ul > li > a {
 }
 
 .header-container > h1 {
-  position: absolute;
-  left: 210px;
-  right: 790px;
-  top: 180px;
+  margin-top: 180px;
+  margin-left: 210px;
+  margin-right: 695px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 55px;
 }
 
 .header-container > p {
-  position: absolute;
-  left: 210px;
-  right: 790px;
-  top: 260px;
+  margin-left: 210px;
+  margin-right: 695px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .header-container > a {
-  position: absolute;
-  left: 210px;
-  top: 350px;
+  margin-left: 210px;
   text-decoration: none;
   background: #ef233c;
   border-radius: 5px;
@@ -84,4 +85,48 @@ nav > ul > li > a {
   color: white;
   font-weight: 600;
   font-size: 20px;
+}
+
+/* Video cointainer Section  */
+.video-cointainer {
+  display: flex;
+  margin-bottom: 100px;
+}
+.video-cointainer .left {
+  width: 50%;
+  margin-top: 210px;
+  margin-left: 204px;
+  margin-right: 83px;
+}
+.video-cointainer .right {
+  width: 50%;
+}
+
+.video-cointainer > .left > h1 {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.video-cointainer > .left > p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #707070;
+  margin-bottom: 30px;
+}
+
+.video-cointainer > .left > a {
+ 
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 16px 20px;
+  color: #ffffff;
+  background-color: #ef233c;
+  border-radius: 5px;
+}
+.video-cointainer .right video {
+  width: 400px;
+  height: 550px;
+  margin-right: 180px;
+
 }
