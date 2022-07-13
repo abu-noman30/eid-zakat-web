@@ -116,7 +116,6 @@ nav > ul > li > a {
 }
 
 .video-container > .left > a {
- 
   text-decoration: none;
   font-weight: 600;
   font-size: 20px;
@@ -129,7 +128,6 @@ nav > ul > li > a {
   width: 400px;
   height: 550px;
   margin-right: 180px;
-
 }
 
 /* Suvive section  */
@@ -161,7 +159,6 @@ nav > ul > li > a {
 }
 
 .suvive-container > .right > a {
- 
   text-decoration: none;
   font-weight: 600;
   font-size: 20px;
@@ -174,5 +171,96 @@ nav > ul > li > a {
   width: 400px;
   height: 430px;
   margin-left: 180px;
+}
 
+/* Donation Section */
+
+.donation-section {
+  margin-bottom: 100px;
+}
+.donation-section > article {
+  text-align: center;
+  margin: 0 450px;
+  margin-bottom: 50px;
+}
+
+.donation-section > article > h1 {
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.donation-section > article > p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #707070;
+}
+
+.help-card {
+  display: flex;
+  margin: 20px 20px;
+}
+
+.help-card .left {
+  display: flex;
+  background: #fef4f5;
+  margin-left: 200px;
+  margin-right: 10px;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.help-card .right {
+  display: flex;
+  background: #fef4f5;
+  margin-left: 10px;
+  margin-right: 200px;
+  padding: 40px;
+  border-radius: 10px;
+}
+.help-card .left > img {
+  width: 56px;
+  height: 56px;
+  margin-right: 30px;
+}
+
+.help-card .left > article > h5 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.help-card .left > article > p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #707070;
+}
+
+.help-card .right > img {
+  width: 56px;
+  height: 56px;
+  margin-right: 30px;
+}
+
+.help-card .right > article > h5 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.help-card .right > article > p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #707070;
+}
+
+.donation-section .donation-container .pray-images {
+  margin-top: 120px;
+  text-align: center;
+}
+.donation-section .donation-container .pray-images img {
+  width: 364px;
+  height: 391px;
+  border-radius: 10px;
+  margin-left: 10px;
 }
