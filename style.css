@@ -329,3 +329,25 @@ nav > ul > li > a {
   padding: 0 30px;
   margin-bottom: 30px;
 }
+
+/* Footer section */
+
+footer {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: black;
+}
+
+footer h2 {
+  font-weight: 400;
+  font-size: 36px;
+  color: #ef233c;
+  margin-bottom: 20px;
+}
+footer p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #d9dbe1;
+}
