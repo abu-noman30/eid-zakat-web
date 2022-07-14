@@ -264,3 +264,68 @@ nav > ul > li > a {
   border-radius: 10px;
   margin-left: 10px;
 }
+
+/* Zakat fund section */
+.zakat-fund-section {
+  margin-bottom: 50px;
+}
+.zakat-fund-section > article {
+  text-align: center;
+  margin: 30px 300px;
+}
+
+.zakat-fund-section > article > h2 {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.zakat-fund-section > article > p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #707070;
+  margin-bottom: 50px;
+}
+
+.zakat-fund-container {
+  display: flex;
+  justify-content: center;
+}
+.zakat-fund-container .zakat-fund-card {
+  border: 1px solid #d9d9d9;
+  width: 364px;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+.zakat-fund-container .zakat-fund-card img {
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 20px;
+}
+
+.zakat-fund-container .zakat-fund-card h4 {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+  padding: 0 30px;
+  margin-bottom: 20px;
+}
+.zakat-fund-container .zakat-fund-card p {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+  color: #707070;
+  padding: 0 30px;
+  margin-bottom: 20px;
+}
+
+.zakat-fund-container .zakat-fund-card a {
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: underline;
+  display: flex;
+  align-items: flex-start;
+  color: #ef233c;
+  padding: 0 30px;
+  margin-bottom: 30px;
+}
